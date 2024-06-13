@@ -1,0 +1,41 @@
+#footer {
+  height: 100px;
+  border-top: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 80px 0 80px;
+}
+
+svg {
+  color: rgb(85 85 85 / 1);
+}
+
+.footer-icon > a {
+  text-decoration: none;
+}
+.footer-icon {
+  display: flex;
+  gap: 25px;
+}
+
+.icon-fb:hover > svg {
+  color: #40a9ff;
+}
+
+.icon-youtube:hover > svg {
+  color: #ff5f5f;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.footer-contact > a {
+  text-decoration: none;
+  color: black;
+}
+.footer-contact > a:hover {
+  color: var(--primary-color);
+}

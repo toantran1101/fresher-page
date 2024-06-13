@@ -158,28 +158,4 @@
   color: var(--primary-color);
   text-decoration: none;
 }
-.seccond-content {
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  justify-content: space-around;
-  margin-top: 27px;
-}
-.seccond-content > .content-child {
-  border: 2px solid #ccc;
-  border-radius: 0.5rem;
-  width: 400px;
-  padding: 16px;
-}
-.seccond-content > .content-child > .content-child-image {
-  height: 250px;
-}
-.seccond-content > .content-child > .content-child-image > img {
-  width: 100%;
-  height: 100%;
-}
 
-.seccond-content > .content-child > .text-image {
-  margin-top: 10px;
-  font-weight: bold;
-}
